@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Hongyan">
+    <title>Pong Game</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="canvas-game">
+     <div class="ball"></div>
+     <div class="leftPaddle"></div>
+     <div class="rightPaddle"></div>
+     <div class="vl"></div>
+     <div class="round"></div>
+    <div class="wintimes"></div>
+    <div class="keyScore">10</div>
+    <div class="comScore">10</div>
+    <div class="timer">
+        <span id="minutes"></span>:<span id="seconds"></span>
+    </div>
+   <div class="score">
+    Your best 3 scores:
+    <ul>
+    <li class="1st"></li>
+    <li class="2nd"></li>
+    <li class="3rd"></li>
+   </ul>
+</div>
+</div>
+    <div class="winLeft"></div>
+    <div class="winRight"></div>
+    <div class=""></div>
+    <audio id="hit">
+        <source src="sounds/hit.mp3" type="audio/mp3">
+    </audio>
+    <audio id="comScore">
+        <source src="sounds/comScore.mp3" type="audio/mp3">
+    </audio>
+    <audio id="keyScore">
+        <source src="sounds/keyScore.mp3" type="audio/mp3">
+    </audio>
+    </div>
+</body>
+
+
+</html>
